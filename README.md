@@ -1,6 +1,7 @@
 # libpythonpro
 
-#### David Maldonado
+![example workflow](https://github.com/maldonadopereira/libpythonpro/actions/workflows/django.yml)
+
 Projeto para exemplificar a construção de projetos Python, utilizando o ambiente virtual Pipenv e
 aplicando lint com Flake8 e Integração contínua.
 
