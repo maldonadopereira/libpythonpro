@@ -26,6 +26,6 @@ jobs:
         pipenv run pip freeze
     - name: Fazer lint
       run: |
-        flake8
+        pipenv run flake8
 
 
