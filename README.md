@@ -1,5 +1,6 @@
 # libpythonpro
 
+#### David Maldonado
 Projeto para exemplificar a construção de projetos Python, utilizando o ambiente virtual Pipenv e
 aplicando lint com Flake8 e Integração contínua.
 
@@ -28,4 +29,3 @@ pipenv sync
 ```bash
 flake8
 ```
-
