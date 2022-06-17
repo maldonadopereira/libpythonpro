@@ -21,7 +21,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        sudo pip install pipenv
+        sudo pip install pipenv codecov
         pipenv sync --dev
         pipenv run pip freeze
 
@@ -31,6 +31,8 @@ jobs:
 
     - name: Rodar testes Automáticos
       run: |
-        pipenv run pytest libpythonpro
+        pipenv run pytest libpythonpro --cov
 
-
+    - name: Cobertura de códigos
+      run: |
+        pipenv run codecov
